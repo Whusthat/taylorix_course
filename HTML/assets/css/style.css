@@ -1,0 +1,84 @@
+.wrapper{
+    padding: 70px 0;
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+
+html.index .to-index a{
+    display: none;
+}
+
+.image-wrapper {
+    margin: 10px 0;
+    width: 100%;
+    max-width: 700px;
+}
+
+.image-wrapper img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+table td,
+table th {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#menu{
+    padding: 60px 0;
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+#menu ul{
+    padding-left: 0;
+    list-style:none;
+}
+
+
+#menu a{
+    text-decoration: none;
+    color: black;
+}
+
+#menu a:hover{
+    color: rgb(153, 153, 28);
+}
+
+#zebra-table tr:nth-child(odd) {
+    background-color: rgb(202, 202, 202);
+}
+
+footer {
+    text-align: center;
+    padding: 100px 36px;
+}
+
+.to-index{
+    padding: 36px 5%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    background-color: lightgray;
+}
+
+.to-index a{
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 20px;
+    transition: all .2s ease-in-out;
+}
+
+.to-index a:hover{
+    background-color: transparent;
+}
