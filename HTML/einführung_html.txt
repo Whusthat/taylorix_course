@@ -1,5 +1,0 @@
-HTML 
-XHTML -> Strikt 
-
-Aktuelle Version HTML 5.2
-
