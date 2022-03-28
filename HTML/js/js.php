@@ -17,7 +17,10 @@ include "../assets/layout/header.php";
         <p>Extern js File</p>
     </div>
     <div id="myDiv4">
-        
+        <button class="btn">Print Small 1x1</button>
+        <div id="content">
+
+        </div>
     </div>
 </div>
 
