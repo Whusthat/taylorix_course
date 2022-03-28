@@ -9,11 +9,16 @@
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <title><?php echo ucfirst($site_title) ?></title>
+    <script type="text/javascript">
+        function foo() {
+            document.getElementById('myDiv2').innerHTML = 'x';
+        }
+    </script>
 
-    <head>
+</head>
 
-    <body>
-        <div class="to-index">
-            <h2><?php echo strtoupper($site_title) ?></h2>
-            <a href="/">zurück zum Index </a>
-        </div>
+<body>
+    <div class="to-index">
+        <h2><?php echo strtoupper($site_title) ?></h2>
+        <a href="/">zurück zum Index </a>
+    </div>

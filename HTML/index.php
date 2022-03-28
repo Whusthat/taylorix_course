@@ -19,6 +19,10 @@ include "assets/layout/header.php";
         <li><a href="/bootstrap/bootstrap-media-queries.php">Breakpoints & Media-Queries</a></li>
         <li><a href="/bootstrap/bootstrap-glyphicon.php">Icons</a></li>
       </ul>
+      <ul>
+        <h2>JavaScript</h2>
+        <li><a href="/js/js.php">JavaScript Einführung</a></li>
+      </ul>
     </div>
 <?php 
 include "assets/layout/footer.php"

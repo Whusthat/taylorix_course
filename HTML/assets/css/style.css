@@ -1,4 +1,4 @@
-.wrapper{
+.wrapper {
     padding: 70px 0;
     width: 100%;
     max-width: 90%;
@@ -6,7 +6,7 @@
 }
 
 
-html.index .to-index a{
+html.index .to-index a {
     display: none;
 }
 
@@ -28,25 +28,25 @@ table th {
     padding: 5px;
 }
 
-#menu{
+#menu {
     padding: 60px 0;
     width: 100%;
     max-width: 90%;
     margin: 0 auto;
 }
 
-#menu ul{
+#menu ul {
     padding-left: 0;
-    list-style:none;
+    list-style: none;
 }
 
 
-#menu a{
+#menu a {
     text-decoration: none;
     color: black;
 }
 
-#menu a:hover{
+#menu a:hover {
     color: rgb(153, 153, 28);
 }
 
@@ -59,7 +59,7 @@ footer {
     padding: 100px 36px;
 }
 
-.to-index{
+.to-index {
     padding: 36px 5%;
     width: 100%;
     text-align: center;
@@ -70,7 +70,7 @@ footer {
     background-color: lightgray;
 }
 
-.to-index a{
+.to-index a {
     color: white;
     background-color: black;
     border: 1px solid black;
@@ -79,6 +79,10 @@ footer {
     transition: all .2s ease-in-out;
 }
 
-.to-index a:hover{
+.to-index a:hover {
     background-color: transparent;
+}
+
+.js .btn {
+    border: 1px solid black;
 }
