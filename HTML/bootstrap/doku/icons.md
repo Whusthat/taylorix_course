@@ -2,14 +2,13 @@
 
 ## Install
 
-1. #### link in head
+1. #### Link in Head
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
-2. #### css import
+2. #### CSS Import
 
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
-
 
 ## Usage
 

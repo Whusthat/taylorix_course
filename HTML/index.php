@@ -5,12 +5,12 @@ include "assets/layout/header.php";
     <div id="menu">
       <ul>
         <h2>Html-Basics</h2>
-        <li><a href="/html-basics/html-elemente.php">Html-Elemente</a></li>
-        <li><a href="/html-basics/listen.php">Listen</a></li>
-        <li><a href="/html-basics/tables.php">Tabellen</a></li>
-        <li><a href="/html-basics/iframes.php">Iframes</a></li>
-        <li><a href="/html-basics/css.php">CSS</a></li>
-        <li><a href="/html-basics/float.php">Float</a></li>
+        <li><a href="/html/html-elemente.php">Html-Elemente</a></li>
+        <li><a href="/html/listen.php">Listen</a></li>
+        <li><a href="/html/tables.php">Tabellen</a></li>
+        <li><a href="/html/iframes.php">Iframes</a></li>
+        <li><a href="/html/css.php">CSS</a></li>
+        <li><a href="/html/float.php">Float</a></li>
       </ul>
       <ul>
         <h2>Boots-Trap</h2>
