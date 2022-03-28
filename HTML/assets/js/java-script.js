@@ -128,19 +128,38 @@ const updateScreen = (btn_value, override) => {
   } else {
     calc_erg.innerHTML += btn_value;
   }
-
 };
 
 const clearScreen = () => {
   calc_erg = document.getElementById("calc-result").innerHTML = 0;
+  let history = document.getElementById("history");
+  history.innerHTML = "";
+  history.style.display = "none";
 };
 
+track_last_input_type = "";
+track_last_input_value = "";
+
 const calc = (ele) => {
-  btn_value = ele.getAttribute("value");
+  btn_value = ele.innerHTML;
   btn_type = ele.getAttribute("type");
 
-  if (btn_type == "number" || btn_type == "operator") {
+  if (btn_type == "number") {
     updateScreen(btn_value, true);
+  }
+
+  if (btn_type == "operator") {
+    if (btn_type != track_last_input_type) {
+      updateScreen(btn_value, true);
+    }
+    if (
+      btn_type == track_last_input_type &&
+      btn_value != track_last_input_value
+    ) {
+      let calc_erg = document.getElementById("calc-result");
+      let replaceChar = calc_erg.innerHTML.slice(0, -1) + btn_value;
+      calc_erg.innerHTML = replaceChar;
+    }
   }
 
   if (btn_type == "return") {
@@ -153,4 +172,7 @@ const calc = (ele) => {
     history.style.display = "block";
     updateScreen(erg, false);
   }
+
+  track_last_input_type = btn_type;
+  track_last_input_value = btn_value;
 };
